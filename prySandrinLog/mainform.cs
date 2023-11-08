@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace prySandrinLog
 {
-    public partial class Form1 : Form
+    public partial class mainform : Form
     {
         ClsAccesoBD ObjAccesoBd = new ClsAccesoBD();
 
-        public Form1()
+        public mainform()
         {
             InitializeComponent();
         }
@@ -28,7 +28,12 @@ namespace prySandrinLog
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
-            
+            ObjAccesoBd.TraerDatos(DataGridViewLOG);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
     }
