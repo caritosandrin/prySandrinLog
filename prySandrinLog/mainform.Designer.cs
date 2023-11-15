@@ -61,7 +61,7 @@
             // 
             this.btnConectarBase.BackColor = System.Drawing.Color.Brown;
             this.btnConectarBase.Location = new System.Drawing.Point(18, 44);
-            this.btnConectarBase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConectarBase.Margin = new System.Windows.Forms.Padding(4);
             this.btnConectarBase.Name = "btnConectarBase";
             this.btnConectarBase.Size = new System.Drawing.Size(195, 43);
             this.btnConectarBase.TabIndex = 1;
@@ -73,7 +73,7 @@
             // 
             this.DataGridViewLOG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGridViewLOG.Location = new System.Drawing.Point(234, 44);
-            this.DataGridViewLOG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DataGridViewLOG.Margin = new System.Windows.Forms.Padding(4);
             this.DataGridViewLOG.Name = "DataGridViewLOG";
             this.DataGridViewLOG.Size = new System.Drawing.Size(620, 357);
             this.DataGridViewLOG.TabIndex = 2;
@@ -83,7 +83,7 @@
             // 
             this.btnTraerDatos.BackColor = System.Drawing.Color.Brown;
             this.btnTraerDatos.Location = new System.Drawing.Point(18, 129);
-            this.btnTraerDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTraerDatos.Margin = new System.Windows.Forms.Padding(4);
             this.btnTraerDatos.Name = "btnTraerDatos";
             this.btnTraerDatos.Size = new System.Drawing.Size(195, 47);
             this.btnTraerDatos.TabIndex = 3;
@@ -95,7 +95,7 @@
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.Brown;
             this.btnRegistrar.Location = new System.Drawing.Point(18, 213);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(195, 55);
             this.btnRegistrar.TabIndex = 4;
@@ -106,12 +106,12 @@
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(20, 348);
+            this.lblID.Location = new System.Drawing.Point(15, 354);
             this.lblID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(26, 16);
+            this.lblID.Size = new System.Drawing.Size(22, 16);
             this.lblID.TabIndex = 5;
-            this.lblID.Text = "ID:";
+            this.lblID.Text = "ID";
             // 
             // txtID
             // 
@@ -134,7 +134,7 @@
             this.Controls.Add(this.btnConectarBase);
             this.Controls.Add(this.statusPrincipal);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "mainform";
             this.Text = "FORMULARIO PRINCIPAL";
             this.Load += new System.EventHandler(this.Form1_Load);
